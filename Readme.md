@@ -13,14 +13,18 @@ The data sources considered for use in this study are:
 -	Demo graphic table (demos.csv)
 
 -	Engagement data  (email_sends.csv) – used to communicate to Individuals 
-  *Field Names*
+
+  *Field Names:*
+
   1. Id	: Customer Id
   2. Timets	: The day the email was sent 
   3. Opened : Whether the person opened the mail or not  
   4. clicked : Whether the person opened the mail and clicked the link or not
 
 - Disposition table (disposition.csv) 
-  *Field Names*
+
+  *Field Names:*
+  
   1. Id	: Customer id
   2. Timets	: Number of days since hand raising
   3. Y : Whether or not a person had purchased – “1” indicates purchased.
