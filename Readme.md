@@ -1,6 +1,10 @@
-### Problem Statement:
+### Tasks and Deliverables for the Project
 
-The goal was to predict whether customers/handraisers purchase a Vehicle or Not.
+- EDA: 
+    Reports describing univariate and bivariate analyses.
+
+- Modeling: 
+    The goal is to predict whether customers/handraisers purchase a Vehicle or Not.
 
 ### Data Source:
 
