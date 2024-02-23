@@ -14,21 +14,20 @@ The data sources considered for use in this study are:
 
 *	Engagement data  (email_sends.csv) – used to communicate to Individuals 
 
-    *Field Names:*
-
-      1. Id	: Customer Id
-      2. Timets	: The day the email was sent 
-      3. Opened : Whether the person opened the mail or not  
-      4. clicked : Whether the person opened the mail and clicked the link or not
+    | Column_Name | Desc |
+    | ------ | ------ |
+    | Id | Customer id |
+    | Timets | Number of days since email engagement. |
+    | Opened | Whether the person opened the mail or not |
+    | Clicked | Whether the person opened the mail and clicked the link or not|
 
 * Disposition table (disposition.csv) 
 
-    *Field Names:*
-
-      1. Id	: Customer id
-      2. Timets	: Number of days since hand raising
-      3. Y : Whether or not a person had purchased – “1” indicates purchased.
-        (Example: Customer id = 1 purchased 5 days after hand-raising, Customer id = 3 purchased 7 days after hand-raising, Customer id = 5 hand raised 17 days ago, but has not purchased)
+    | Column_Name | Desc |
+    | ------ | ------ |
+    | Id | Customer id |
+    | Timets | Number of days since hand raising. |
+    | Y | Whether or not a person had purchased – “1” indicates purchased. ( Example: Customer id = 1 purchased 5 days after hand-raising, Customer id = 3 purchased 7 days after hand-raising, Customer id = 5 hand raised 17 days ago, but has not purchased ) |
 
 
 ### Approach:
@@ -90,5 +89,3 @@ The data sources considered for use in this study are:
   1. Email engagement.
   2. Hand rasie 
   3. Purcahse.
-
-
